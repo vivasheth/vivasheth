@@ -132,7 +132,7 @@ footer {
     text-align: center;
     padding: 50px;
 }
-.hero {
+.fwh-slide {
     height: 100vh;
     display: flow-root;
     justify-content: center;
@@ -140,17 +140,44 @@ footer {
     text-align: center;
 
     background-size: cover;
+    box-sizing: border-box;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url('/Users/apple/Documents/GitHub/vivasheth.github.io/vivasheth/viva.jpg');
 }
-.hero h1 {
+.fwh-slide h1 {
   color: white;
   font-size: 100px;
 }
-.hero h2 {
+.fwh-slide h2 {
   color: white;
   font-weight: bold;
   font-size: 40px;
+}
+
+.fwh-slide a {
+  display: inline-block;
+  color: #FFF;
+  border: 2px solid #FFF;
+  border-radius: 2px;
+  padding: 10px 25px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.fwh-slide--0 h1{
+  color: black;
+  margin: 0;
+}
+
+.fwh-slide--0 {
+    height: 100vh;
+    display: flow-root;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+
+    background-size: cover;
 }
