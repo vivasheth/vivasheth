@@ -138,22 +138,18 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-#hero {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url('/Users/apple/Documents/GitHub/vivasheth.github.io/vivasheth/viva.jpg');
 }
-#hero h1 {
+h1 {
   color: white;
   font-size: 100px;
 }
-#hero h2 {
+h2 {
   color: white;
   font-weight: bold;
   font-size: 40px;
 }
-
-#menu
