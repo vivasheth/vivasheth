@@ -132,23 +132,24 @@ footer {
     text-align: center;
     padding: 50px;
 }
-section {
+.hero {
     height: 100vh;
-    display: flex;
+    display: flow-root;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
+
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url('/Users/apple/Documents/GitHub/vivasheth.github.io/vivasheth/viva.jpg');
 }
-h1 {
+.hero h1 {
   color: white;
   font-size: 100px;
 }
-h2 {
+.hero h2 {
   color: white;
   font-weight: bold;
   font-size: 40px;
